@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data></data>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingHorizontal="5dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="30dp"
+        android:src="@drawable/add"
+        android:layout_marginBottom="9dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textStyle="bold"
+        android:textSize="13dp"/>
+</LinearLayout>
+</layout>

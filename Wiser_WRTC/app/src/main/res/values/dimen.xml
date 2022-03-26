@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="container_corner_radius">7dp</dimen>
+    <dimen name="container_vertical_padding">14dp</dimen>
+    <dimen name="container_horizontal_padding">20dp</dimen>
+    <dimen name="container_spacing">3dp</dimen>
+    <dimen name="font_size_container_mini_title">13dp</dimen>
+
+    <dimen name="font_size_header">25dp</dimen>
+
+    <dimen name="vertical_padding">14dp</dimen>
+    <dimen name="horizontal_padding">15dp</dimen>
+
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

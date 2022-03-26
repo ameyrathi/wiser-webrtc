@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data></data>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="3dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/item_imgDisplayPicture"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/friend_lee_boon"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/dark_grey"
+        android:layout_marginBottom="2dp"
+        android:padding="7dp"
+        />
+    <TextView
+        android:id="@+id/item_lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lee Boon"
+        android:textStyle="bold"
+        android:textSize="13dp"/>
+</LinearLayout>
+</layout>
